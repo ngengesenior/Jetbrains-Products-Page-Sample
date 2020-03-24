@@ -1,0 +1,134 @@
+
+
+
+
+
+label {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+input[type=checkbox] {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #27282C;
+}
+.nav {
+    display: grid;
+    height: 70px;
+    background: #27282C;
+    color: #D9DADA;
+    grid-template-columns: 40% repeat(6,1fr);
+    grid-column-gap: 4px;
+    position: fixed;
+    width: 100%;
+
+}
+.nav > a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+hr {
+    width: 100%;
+    background: #27282C;
+    height: 1px;
+}
+.parent-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-row-gap: 8px;
+
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /**grid-template-columns: 1fr;**/
+}
+
+.languages-and-products {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    background: white;
+    color: #27282C;
+    margin-top: 100px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 8px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.product-item > a {
+    text-decoration: none;
+    color: #27282C;
+}
+.product-item > p {
+    text-align: center;
+}
+.product-item >button {
+    background-color: #E6E6E6;
+    padding: 8px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p.learn {
+    color: blue;
+}
+
+footer {
+    height: 200px;
+    background: #27282C;
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(2,auto) 1fr;
+}
+
+footer > img {
+    margin-top: 12px;
+}
+.links {
+    display: grid;
+    grid-template-columns:1fr;
+    padding-top: 60px;
+    grid-gap: 16px;
+    padding-bottom: 60px;
+}
+
+.socials {
+    display: inline-grid;
+    grid-template-columns: repeat(8,auto);
+}
+
+.privacy {
+    display: flex;
+
+}
+.privacy > a,.privacy > div {
+    margin-right: 4px;
+    text-decoration: none;
+    color: white;
+}
+.copyright {
+    color: white;
+}
